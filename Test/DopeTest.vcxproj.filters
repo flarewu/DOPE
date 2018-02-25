@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{5c0cd135-229b-4744-8746-9a30d2cbc520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Partix">
+      <UniqueIdentifier>{11e1f69e-75e0-4201-9f3e-17cea9721a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{b476374c-be15-45e6-bde7-c6040c6d7c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Dod">
+      <UniqueIdentifier>{4efe51f2-beed-4141-9633-179d6228932e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Common\Matrix3Test.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\QuaternionTest.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TransformTest.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Vector3Test.cpp">
+      <Filter>Common\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DataBufferTest.cpp">
+      <Filter>Common\Dod</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

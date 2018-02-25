@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Cold">
+      <UniqueIdentifier>{be028512-cfd0-44e9-93b9-14aba1161529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cold\BroadPhase">
+      <UniqueIdentifier>{0f2dda85-7bca-41d8-81d9-fe78e4e244cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rigidy">
+      <UniqueIdentifier>{e53467d1-20e8-41cd-a12a-1bb8828cdb1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Partix">
+      <UniqueIdentifier>{c0fe2572-c8c3-4a14-af91-664886f8603f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Softie">
+      <UniqueIdentifier>{bab97f97-ef21-4173-b754-2836198c566b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{88c48444-7e64-48f2-a4ac-4ca55b0c7fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Math">
+      <UniqueIdentifier>{067f5626-8080-4830-b44a-a5be955e7744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Dod">
+      <UniqueIdentifier>{ae83c5fb-6689-48e2-8e4a-d26f914132c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cold\Broad\BpProxy.cpp">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="Cold\Broad\BpWorld.cpp">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="Cold\Broad\BpEndpoints.cpp">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Math.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Dod\DataBuffer.cpp">
+      <Filter>Common\Dod</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cold\Broad\BpEndpoint.h">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Cold\Broad\BpProxy.h">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Cold\Broad\BpWorld.h">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Cold\Broad\BpEndpoints.h">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Cold\Broad\BpProxies.h">
+      <Filter>Cold\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\Real.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\ScalarTraits.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\TMatrix3.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\TQuaternion.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\TracedFloat.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\TTransform.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\TTuple3.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\TTuple4.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math\TVector3.h">
+      <Filter>Common\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Math.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Dod\DataBuffer.h">
+      <Filter>Common\Dod</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
